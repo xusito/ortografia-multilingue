@@ -56,7 +56,9 @@ Corregir errores ortográficos en 11 idiomas europeos. Foco en **ortografía pur
 
 8. **Devuelve el texto corregido** directamente.
 
-9. **Muestra la tabla de auditoría** con todas las correcciones realizadas.
+9. **Agrupa errores repetidos antes de mostrar la tabla** — ver sección "Errores repetidos" abajo.
+
+10. **Muestra la tabla de auditoría** con todas las correcciones realizadas.
 
 ---
 
@@ -78,6 +80,22 @@ Al final del texto corregido, muestra siempre:
 | 1 | 🔴 Alta | `ejemplo` | `corrección` | Tilde ES | "...4-6 palabras..." |
 
 Si no hay errores: `Sin errores ortográficos detectados.`
+
+### Errores repetidos — corrección masiva
+
+Cuando el mismo error ortográfico aparece **5 o más veces** en el texto auditado, no lo listes línea por línea. En su lugar, muestra una fila de resumen con:
+
+| # | Prioridad | Original | Corrección | Tipo | Ocurrencias | Ejemplo de contexto |
+|---|---|---|---|---|---|---|
+| 1 | 🔴 Alta | `instal·lacións` | `instal·lacions` | Acento CA | **535 × en 130 archivos** | "amb instal·lacións noves..." |
+
+Y añade debajo de la tabla:
+
+> ⚠️ **Corrección masiva recomendada**: `instal·lacións` → `instal·lacions` aparece 535 veces en 130 archivos. Corregir en el template del generador en lugar de editar cada archivo individualmente.
+
+**Umbral:** 5+ ocurrencias en el mismo archivo, o 10+ en un análisis multifichero.
+
+**Excepciones:** si las ocurrencias tienen contextos distintos que podrían requerir tratamientos diferentes, lista los primeros 3 ejemplos y añade `(+ N más)`.
 
 ### Criterios de prioridad
 
