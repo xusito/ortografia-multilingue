@@ -56,6 +56,14 @@ Questi monosillabi cambiano significato con/senza accento:
 
 ---
 
+## Vocabolario IA da evitare (stile artificiale)
+
+Queste parole ed espressioni compaiono eccessivamente nei testi generati da IA. Segnalarle e proporre alternative naturali:
+
+`cruciale` · `fondamentale` · `vibrante` · `ricco` (figurativo) · `inestimabile` · `mettere in luce` · `sottolineare` · `evidenziare` · `testimonianza di` · `paesaggio` (astratto: "il paesaggio digitale") · `nel cuore di` · `plasmare` · `stimolare` · `promuovere` · `navigare` (astratto) · `si inserisce in` · `è importante notare` · `vale la pena sottolineare` · `immergersi in` · `senza dubbio`
+
+---
+
 ## Errori comuni nelle traduzioni IA
 
 - Omettere l'accento sulle parole tronche (`citta` → `città`, `caffe` → `caffè`)

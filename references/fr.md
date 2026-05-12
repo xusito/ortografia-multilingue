@@ -112,6 +112,14 @@ Utiliser `'` (droit), jamais `'` ni `'` (courbes):
 
 ---
 
+## Vocabulaire IA à éviter (style artificiel)
+
+Ces mots et expressions apparaissent de façon excessive dans les textes générés par IA. Les signaler et proposer des alternatives naturelles :
+
+`crucial` · `fondamental` · `incontournable` · `essentiel` (surutilisé) · `vibrant` · `riche` (figuratif) · `mettre en lumière` · `souligner` · `témoigne de` · `témoignage de` · `paysage` (abstrait : "le paysage numérique") · `au cœur de` · `façonner` · `stimuler` · `mettre en avant` · `naviguer` (abstrait) · `s'inscrit dans` · `dans le cadre de` · `il convient de noter` · `il est important de souligner` · `plonger dans`
+
+---
+
 ## Erreurs fréquentes dans les traductions IA
 
 - Omettre les accents sur les majuscules (`Etat` → `État`)

@@ -108,6 +108,14 @@ English borrowings that retain their accent:
 
 ---
 
+## AI vocabulary to avoid (artificial style)
+
+These words appear disproportionately in AI-generated text. Flag them and suggest natural alternatives:
+
+`crucial` · `pivotal` · `vibrant` · `landscape` (abstract) · `tapestry` · `testament` · `key` (adjective) · `groundbreaking` · `nestled` · `breathtaking` · `fostering` · `underscoring` · `highlighting` · `showcasing` · `delve` · `enhance` · `garner` · `seamless` · `robust` · `leverage` (verb) · `cutting-edge` · `game-changer` · `it's worth noting` · `it is important to note` · `in the realm of` · `in today's world` · `ever-evolving`
+
+---
+
 ## Common AI spelling errors in English
 
 - Missing double letters (`necesary`, `occurance`, `accomodate`)

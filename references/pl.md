@@ -87,6 +87,14 @@ Samogłoski nosowe — brak ich jest najczęstszym błędem AI.
 
 ---
 
+## Słownictwo AI do unikania (sztuczny styl)
+
+Te słowa pojawiają się nieproporcjonalnie często w tekstach generowanych przez AI. Oznaczać je i proponować naturalne alternatywy:
+
+`kluczowy` (nadużywane) · `fundamentalny` · `przełomowy` · `tętniący życiem` (vibrant) · `bogaty` (figuratywnie) · `bezproblemowy` · `solidny` · `krajobraz` (abstrakt: "cyfrowy krajobraz") · `świadectwo` · `podkreślać` · `uwydatniać` · `kształtować` · `w sercu` · `nawigować` (abstrakt) · `warto zauważyć` · `należy podkreślić` · `we współczesnym świecie` · `zagłębić się w` · `w ramach`
+
+---
+
 ## Częste błędy w tłumaczeniach AI
 
 - Pominięcie ogonków: `ą`, `ę`, `ó`, `ś`, `ź`, `ż`, `ć`, `ń`, `ł`

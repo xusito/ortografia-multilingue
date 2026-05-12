@@ -13,14 +13,23 @@ description: >
 
 ## Objetivo
 
-Corregir errores ortográficos en textos en ES, CA, FR, IT, EN y DE. Foco exclusivo en **ortografía pura**: tildes, acentos, caracteres especiales, grafía correcta de palabras. No es revisión de estilo ni de gramática.
+Corregir errores ortográficos en 11 idiomas europeos. Foco en **ortografía pura**: tildes, acentos, caracteres especiales, grafía correcta, vocabulario de estilo IA. No es revisión de gramática ni redacción.
 
 ---
 
 ## Proceso
 
-1. **Detecta el idioma** del fragmento. Si hay mezcla, trata cada sección por separado.
-2. **Lee el archivo de referencia** correspondiente:
+1. **Detecta el idioma** del fragmento.
+
+2. **Texto mixto (opción 3):** Si el texto mezcla dos idiomas, pregunta antes de continuar:
+   > "Este texto mezcla [idioma A] y [idioma B]. ¿A qué idioma aplico las correcciones ortográficas?"
+   Espera respuesta antes de corregir.
+
+3. **Variante del mismo idioma (opción 4):** Si detectas inconsistencia de variante dentro del mismo texto (inglés US/UK mezclado, portugués PT/BR mezclado, noruego Bokmål/Nynorsk mezclado), pregunta:
+   > "Este texto mezcla [variante A] y [variante B]. ¿En cuál quieres que lo unifique?"
+   Espera respuesta antes de corregir.
+
+4. **Lee el archivo de referencia** correspondiente:
    - Español → `references/es.md`
    - Català → `references/ca.md`
    - Français → `references/fr.md`
@@ -32,10 +41,22 @@ Corregir errores ortográficos en textos en ES, CA, FR, IT, EN y DE. Foco exclus
    - Svenska → `references/sv.md`
    - Dansk → `references/da.md`
    - Norsk → `references/no.md`
-3. **Escanea el texto** aplicando las reglas de ese archivo.
-4. **Si tienes duda** sobre una palabra, consulta el diccionario oficial indicado en el archivo de referencia antes de corregir. Si la forma original es correcta, no la toques.
-5. **Devuelve el texto corregido** directamente.
-6. **Muestra la tabla de auditoría** con todas las correcciones realizadas.
+
+5. **Escanea el texto** aplicando las reglas de ese archivo, incluyendo la lista de vocabulario IA a evitar.
+
+6. **Falsos positivos — NO corregir (opción 1):**
+   - Nombres propios de personas, empresas, marcas y productos (`Coca-Cola`, `WordPress`, `iPhone`)
+   - URLs, dominios y rutas (`codigo-qr.es`, `/ca/reformes/`)
+   - Código: etiquetas HTML, clases CSS, variables, funciones, keys de JSON
+   - Términos técnicos establecidos en el sector (`SEO`, `API`, `SaaS`, `JSON-LD`)
+   - Palabras en otro idioma usadas intencionalmente (p.ej. anglicismos en texto español que son nombres de producto)
+   - Si tienes duda sobre si una palabra es nombre propio o error, búscala en el diccionario antes de corregir.
+
+7. **Si tienes duda** sobre una palabra, consulta el diccionario oficial indicado en el archivo de referencia antes de corregir. Si la forma original es correcta, no la toques.
+
+8. **Devuelve el texto corregido** directamente.
+
+9. **Muestra la tabla de auditoría** con todas las correcciones realizadas.
 
 ---
 
@@ -58,7 +79,7 @@ Al final del texto corregido, muestra siempre:
 
 Si no hay errores: `Sin errores ortográficos detectados.`
 
-Tipos disponibles: `Tilde ES`, `Acento CA`, `Punt volat CA`, `Accent FR`, `Accento IT`, `Spelling EN`, `Apostrophe EN`, `Umlaut DE`, `Eszett DE`, `Majúscula DE`, `Grafía`.
+Tipos disponibles: `Tilde ES`, `Vocab IA ES`, `Acento CA`, `Punt volat CA`, `Accent FR`, `Vocab IA FR`, `Accento IT`, `Vocab IA IT`, `Spelling EN`, `Apostrophe EN`, `Vocab IA EN`, `Umlaut DE`, `Eszett DE`, `Majúscula DE`, `Vocab IA DE`, `Nasal PT`, `Cedilha PT`, `Vocab IA PT`, `Ogonek PL`, `Vocab IA PL`, `Specialtecken SV`, `Vocab IA SV`, `Specialtegn DA`, `Vocab IA DA`, `Spesialtegn NO`, `Vocab IA NO`, `Grafía`.
 
 ---
 
@@ -89,6 +110,11 @@ Cuando el usuario pida "informe HTML", "listado HTML", "exportar correcciones" o
   .it { background:#dcfce7; color:#166534; }
   .en { background:#f3e8ff; color:#6b21a8; }
   .de { background:#ffedd5; color:#9a3412; }
+  .pt { background:#d1fae5; color:#065f46; }
+  .pl { background:#fef3c7; color:#78350f; }
+  .sv { background:#e0e7ff; color:#3730a3; }
+  .da { background:#fce7f3; color:#831843; }
+  .no { background:#f0fdf4; color:#166534; }
   .contexto { color: #6b7280; font-style: italic; font-size: .88rem; }
   .summary { margin-top: 1.5rem; padding: .8rem 1rem; background: #f0fdf4; border-left: 3px solid #16a34a; font-size: .9rem; }
 </style>

@@ -68,6 +68,14 @@ Svenska använder stor bokstav i början av mening och för egennamn, men INTE f
 
 ---
 
+## AI-vokabulär att undvika (artificiell stil)
+
+Dessa ord förekommer oproportionerligt ofta i AI-genererade texter. Markera dem och föreslå naturliga alternativ:
+
+`avgörande` (överanvänd) · `grundläggande` · `banbrytande` · `livfull` (vibrant) · `rik` (figurativt) · `sömlös` · `robust` · `landskap` (abstrakt: "det digitala landskapet") · `vittnesbörd om` · `understryka` · `lyfta fram` · `forma` · `i hjärtat av` · `navigera` (abstrakt) · `främja` · `det är viktigt att notera` · `det bör understrykas` · `i dagens värld` · `fördjupa sig i` · `inom ramen för`
+
+---
+
 ## Vanliga AI-fel på svenska
 
 - Skriva `aa`, `ae`, `oe` istället för `å`, `ä`, `ö`

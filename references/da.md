@@ -65,6 +65,14 @@ Dansk bruger stort begyndelsesbogstav i sætningens begyndelse og i egennavne, m
 
 ---
 
+## AI-vokabular der skal undgås (kunstig stil)
+
+Disse ord optræder uforholdsmæssigt ofte i AI-genererede tekster. Markér dem og foreslå naturlige alternativer:
+
+`afgørende` (overbrugt) · `grundlæggende` · `banebrydende` · `levende` (vibrant) · `rig` (figurativt) · `problemfri` · `robust` · `landskab` (abstrakt: "det digitale landskab") · `vidnesbyrd om` · `understrege` · `fremhæve` · `forme` · `i hjertet af` · `navigere` (abstrakt) · `fremme` · `det er vigtigt at bemærke` · `det bør understreges` · `i nutidens verden` · `dykke ned i` · `inden for rammerne af`
+
+---
+
 ## Hyppige AI-fejl på dansk
 
 - Skrive `aa`, `ae`, `oe` i stedet for `å`, `æ`, `ø`

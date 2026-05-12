@@ -94,6 +94,14 @@ Adjektive und Verben bleiben klein, außer am Satzanfang oder als Substantivieru
 
 ---
 
+## KI-Vokabular vermeiden (künstlicher Stil)
+
+Diese Wörter kommen in KI-generierten Texten unverhältnismäßig häufig vor. Markieren und natürliche Alternativen vorschlagen:
+
+`entscheidend` (surutilisé) · `grundlegend` · `wegweisend` · `lebendig` / `lebhaft` (vibrant) · `Landschaft` (abstrakt: "die digitale Landschaft") · `Zeugnis von` · `unterstreichen` · `hervorheben` · `prägen` · `im Herzen von` · `navigieren` (abstrakt) · `fördern` · `nahtlos` · `robust` · `es ist wichtig zu beachten` · `es sei darauf hingewiesen` · `in der heutigen Zeit` · `sich einfügen in` · `tauchen ein in`
+
+---
+
 ## Häufige KI-Fehler auf Deutsch
 
 - Umlaute als `ae`/`oe`/`ue` schreiben statt `ä`/`ö`/`ü`

@@ -80,6 +80,14 @@ Norsk bruker stor bokstav i setningens begynnelse og i egennavn, men IKKE for uk
 
 ---
 
+## AI-vokabular å unngå (kunstig stil)
+
+Disse ordene forekommer uforholdsmessig ofte i AI-genererte tekster. Merk dem og foreslå naturlige alternativer:
+
+`avgjørende` (overbrukt) · `grunnleggende` · `banebrytende` · `livlig` (vibrant) · `rik` (figurativt) · `sømløs` · `robust` · `landskap` (abstrakt: "det digitale landskapet") · `vitnesbyrd om` · `understreke` · `fremheve` · `forme` · `i hjertet av` · `navigere` (abstrakt) · `fremme` · `det er viktig å merke seg` · `det bør understrekes` · `i dagens verden` · `dykke ned i` · `innenfor rammen av`
+
+---
+
 ## Vanlige AI-feil på norsk
 
 - Skrive `aa`, `ae`, `oe` i stedet for `å`, `æ`, `ø`

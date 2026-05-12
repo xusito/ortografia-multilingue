@@ -100,6 +100,14 @@ Em caso de dúvida, consultar o dicionário antes de corrigir. O Acordo Ortográ
 
 ---
 
+## Vocabulário IA a evitar (estilo artificial)
+
+Estas palavras aparecem excessivamente em textos gerados por IA. Sinalizá-las e propor alternativas naturais:
+
+`crucial` · `fundamental` · `vibrante` · `rico` (figurativo) · `inestimável` · `destacar` (surutilisé) · `sublinhar` · `salientar` · `testemunho de` · `paisagem` (abstrato: "a paisagem digital") · `no coração de` · `moldar` · `impulsionar` · `promover` · `navegar` (abstrato) · `sem dúvida` · `é importante notar` · `vale a pena destacar` · `mergulhar em` · `no âmbito de`
+
+---
+
 ## Erros frequentes em traduções IA
 
 - Omitir til nas vogais nasais (`nao` → `não`, `entao` → `então`)
