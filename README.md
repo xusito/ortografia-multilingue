@@ -22,6 +22,12 @@ Automatic spell checker skill for Claude Code — 11 European languages.
 
 ---
 
+## Live example
+
+**[codigo-qr.es](https://codigo-qr.es)** — a multilingual QR code SaaS built in ES, CA, FR, IT, EN and DE. All copy and UI text are spell-checked with this skill before publishing. A real-world example of the skill catching and correcting orthographic errors across 6 languages.
+
+---
+
 ## Example output
 
 ```
