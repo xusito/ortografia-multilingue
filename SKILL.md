@@ -1,6 +1,6 @@
 ---
 name: ortografia-multilingue
-description: Corrector ortográfico automático para ES, CA, FR, IT, EN y DE. Actívalo SIEMPRE que generes, edites, traduzcas o revises cualquier texto en español, catalán, francés, italiano, inglés o alemán. Detecta el idioma automáticamente, carga las reglas del diccionario oficial correspondiente y corrige tildes, acentos, diéresis, umlauts, ß y errores ortográficos visibles. Úsalo cuando el usuario diga "revisa la ortografía", "corrígeme esto", "tiene faltas", "check spelling", "vérifie l'orthographe", "correggi", "rechtschreibung", o cualquier variante. También actívalo antes de dar por cerrado cualquier fragmento de texto en estos idiomas.
+description: Corrector ortográfico automático para 11 idiomas europeos: ES, CA, FR, IT, EN, DE, PT, PL, SV, DA y NO. Actívalo SIEMPRE que generes, edites, traduzcas o revises cualquier texto en español, catalán, francés, italiano, inglés, alemán, portugués, polaco, sueco, danés o noruego. Detecta el idioma automáticamente, carga las reglas del diccionario oficial correspondiente y corrige tildes, acentos, diéresis, umlauts, ß, ogonki polacos, vogais nasais portuguesas y caracteres especiales nórdicos (å æ ø). Úsalo cuando el usuario diga "revisa la ortografía", "corrígeme esto", "tiene faltas", "check spelling", "vérifie l'orthographe", "correggi", "rechtschreibung", "sprawdź pisownię", "stavningskontroll", o cualquier variante. También actívalo antes de dar por cerrado cualquier fragmento de texto en estos idiomas.
 ---
 
 ## Objetivo
@@ -19,6 +19,11 @@ Corregir errores ortográficos en textos en ES, CA, FR, IT, EN y DE. Foco exclus
    - Italiano → `references/it.md`
    - English → `references/en.md`
    - Deutsch → `references/de.md`
+   - Português → `references/pt.md`
+   - Polski → `references/pl.md`
+   - Svenska → `references/sv.md`
+   - Dansk → `references/da.md`
+   - Norsk → `references/no.md`
 3. **Escanea el texto** aplicando las reglas de ese archivo.
 4. **Si tienes duda** sobre una palabra, consulta el diccionario oficial indicado en el archivo de referencia antes de corregir. Si la forma original es correcta, no la toques.
 5. **Devuelve el texto corregido** directamente.

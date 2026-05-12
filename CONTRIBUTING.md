@@ -72,9 +72,10 @@ Before submitting, verify your `references/[lang].md`:
 
 | Language | Code | Status |
 |----------|------|--------|
-| Português | PT | planned |
 | Nederlands | NL | planned |
-| Polski | PL | planned |
+| Română | RO | planned |
+| Čeština | CS | planned |
+| Magyar | HU | planned |
 | Galego | GL | planned |
 
 Open an issue if you want to claim a language before starting.
