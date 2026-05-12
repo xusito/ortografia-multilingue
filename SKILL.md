@@ -17,6 +17,19 @@ Corregir errores ortográficos en 11 idiomas europeos. Foco en **ortografía pur
 
 ---
 
+## Modos de uso
+
+**Modo estándar** (por defecto): auditoría completa con todos los niveles de prioridad.
+
+**Modo rápido**: actívalo cuando el usuario diga "revisión rápida", "quick check", "solo críticos", "modo rápido" o similar. Solo muestra errores 🔴 Alta. Ignora Media y Baja. Ideal para revisiones pre-publicación rápidas.
+
+**Whitelist de proyecto**: si el usuario indica términos que no deben corregirse (marcas, topónimos, términos propios), añádelos a la whitelist de la sesión. Formato:
+> "Ignora: Baix Llobregat, Eixample, Edificando.es, Consorci de l'Habitatge"
+
+Los términos de la whitelist se tratan igual que los falsos positivos del paso 6.
+
+---
+
 ## Proceso
 
 1. **Detecta el idioma** del fragmento.
@@ -120,7 +133,24 @@ Y añade debajo de la tabla:
 - Decimal o separador de miles incorrecto
 
 ### Tipos disponibles
-`Tilde ES` · `Vocab IA ES` · `Puntuación ES` · `Acento CA` · `Punt volat CA` · `Accent FR` · `Vocab IA FR` · `Ponctuation FR` · `Accento IT` · `Vocab IA IT` · `Spelling EN` · `Apostrophe EN` · `Vocab IA EN` · `Punctuation EN` · `Umlaut DE` · `Eszett DE` · `Majúscula DE` · `Vocab IA DE` · `Nasal PT` · `Cedilha PT` · `Vocab IA PT` · `Ogonek PL` · `Vocab IA PL` · `Specialtecken SV` · `Vocab IA SV` · `Specialtegn DA` · `Vocab IA DA` · `Spesialtegn NO` · `Vocab IA NO` · `Grafía`
+`Tilde ES` · `Falso amigo ES→CA` · `Vocab IA ES` · `Puntuación ES` · `Acento CA` · `Punt volat CA` · `Falso amic CA→ES` · `Accent FR` · `Vocab IA FR` · `Ponctuation FR` · `Accento IT` · `Vocab IA IT` · `Spelling EN` · `Apostrophe EN` · `Vocab IA EN` · `Punctuation EN` · `Umlaut DE` · `Eszett DE` · `Majúscula DE` · `Vocab IA DE` · `Nasal PT` · `Cedilha PT` · `Vocab IA PT` · `Ogonek PL` · `Vocab IA PL` · `Specialtecken SV` · `Vocab IA SV` · `Specialtegn DA` · `Vocab IA DA` · `Spesialtegn NO` · `Vocab IA NO` · `Grafía`
+
+### Estadísticas de resumen
+
+Tras la tabla de auditoría (en modo estándar con 5+ errores), añade siempre un bloque de estadísticas:
+
+```
+Resumen ortográfico:
+  Total errores: 47
+  🔴 Alta:  12 (26%) — Acento CA · Falso amigo ES→CA
+  🟡 Media: 28 (59%) — Tilde ES · Punt volat CA
+  🟢 Baja:   7 (15%) — Vocab IA ES
+
+  Tipo más frecuente: Acento CA (31 ocurrencias, 66%)
+  Archivo/sección más afectada: reformes-de-pisos (19 errores)
+```
+
+En modo rápido: omitir estadísticas y mostrar solo la tabla de Alta.
 
 ---
 

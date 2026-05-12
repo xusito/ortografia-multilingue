@@ -85,6 +85,31 @@ Usar `'` (recte), mai `'` ni `'` (corbs):
 
 ---
 
+## Falsos amics CA → ES (paraules que la IA deixa en català dins de text espanyol)
+
+Quan es tradueix de CA a ES, la IA sovint deixa aquestes paraules en català. Si apareixen en un text que hauria de ser espanyol, són errors:
+
+| Paraula CA (incorrecta en ES) | Forma correcta en ES |
+|---|---|
+| `però` | `pero` |
+| `també` | `también` |
+| `molt` | `mucho` / `muy` |
+| `sense` | `sin` |
+| `hi ha` | `hay` |
+| `més` | `más` |
+| `com` (conjunció) | `como` |
+| `per` / `per a` | `para` |
+| `tot` / `tots` | `todo` / `todos` |
+| `mai` | `nunca` |
+| `sempre` | `siempre` |
+| `on` (relatiu) | `donde` |
+| `quan` | `cuando` |
+| `perquè` | `porque` |
+| `encara que` | `aunque` |
+| `-ció` (sufix) | `-ción` (`comunicació` → `comunicación`) |
+| `-cions` (sufix) | `-ciones` (`instal·lacions` → `instalaciones`) |
+| `-at` (participi) | `-ado` (`reformat` → `reformado`) |
+
 ## Errors freqüents en traduccions IA
 
 - Afegir accent al plural de paraules acabades en -ció: `instal·lacións` → `instal·lacions`
