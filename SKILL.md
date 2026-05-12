@@ -73,13 +73,36 @@ Corregir errores ortográficos en 11 idiomas europeos. Foco en **ortografía pur
 
 Al final del texto corregido, muestra siempre:
 
-| # | Original | Corrección | Tipo | Contexto |
-|---|---|---|---|---|
-| 1 | `ejemplo` | `corrección` | Tilde ES / Acento CA / Accent FR / Accento IT / Spelling EN / Umlaut DE | "...4-6 palabras..." |
+| # | Prioridad | Original | Corrección | Tipo | Contexto |
+|---|---|---|---|---|---|
+| 1 | 🔴 Alta | `ejemplo` | `corrección` | Tilde ES | "...4-6 palabras..." |
 
 Si no hay errores: `Sin errores ortográficos detectados.`
 
-Tipos disponibles: `Tilde ES`, `Vocab IA ES`, `Acento CA`, `Punt volat CA`, `Accent FR`, `Vocab IA FR`, `Accento IT`, `Vocab IA IT`, `Spelling EN`, `Apostrophe EN`, `Vocab IA EN`, `Umlaut DE`, `Eszett DE`, `Majúscula DE`, `Vocab IA DE`, `Nasal PT`, `Cedilha PT`, `Vocab IA PT`, `Ogonek PL`, `Vocab IA PL`, `Specialtecken SV`, `Vocab IA SV`, `Specialtegn DA`, `Vocab IA DA`, `Spesialtegn NO`, `Vocab IA NO`, `Grafía`.
+### Criterios de prioridad
+
+**🔴 Alta** — errores visibles de inmediato o que cambian el significado:
+- Error en `<title>`, `<h1>`, `<h2>`, `meta description`, `og:title`
+- Monosílabo con/sin acento que cambia significado (ES: `el`/`él`, IT: `e`/`è`, FR: `ou`/`où`)
+- Signo de apertura faltante en ES/CA (`¿`, `¡`)
+- Comillas o puntuación incorrectas en FR (guillemets, espacio antes de `!`)
+- Umlaut completamente omitido en DE que hace la palabra irreconocible
+
+**🟡 Media** — errores ortográficos estándar en cuerpo de texto:
+- Tilde faltante en esdrújula o aguda en ES
+- Acento faltante en final de palabra IT (`città`, `caffè`)
+- Acento faltante en CA (`també`, `però`, `és`)
+- Mayúscula faltante en sustantivo DE
+- Carácter especial faltante (`ç`, `ß`, `ą`, `å`, etc.)
+
+**🟢 Baja** — estilo o variante, no error ortográfico puro:
+- Vocabulario IA detectado (sugerencia de sustitución)
+- Inconsistencia de variante US/UK o PT/BR
+- Ligatura opcional en FR (`oeuvre` → `œuvre`)
+- Decimal o separador de miles incorrecto
+
+### Tipos disponibles
+`Tilde ES` · `Vocab IA ES` · `Puntuación ES` · `Acento CA` · `Punt volat CA` · `Accent FR` · `Vocab IA FR` · `Ponctuation FR` · `Accento IT` · `Vocab IA IT` · `Spelling EN` · `Apostrophe EN` · `Vocab IA EN` · `Punctuation EN` · `Umlaut DE` · `Eszett DE` · `Majúscula DE` · `Vocab IA DE` · `Nasal PT` · `Cedilha PT` · `Vocab IA PT` · `Ogonek PL` · `Vocab IA PL` · `Specialtecken SV` · `Vocab IA SV` · `Specialtegn DA` · `Vocab IA DA` · `Spesialtegn NO` · `Vocab IA NO` · `Grafía`
 
 ---
 
@@ -116,6 +139,10 @@ Cuando el usuario pida "informe HTML", "listado HTML", "exportar correcciones" o
   .da { background:#fce7f3; color:#831843; }
   .no { background:#f0fdf4; color:#166534; }
   .contexto { color: #6b7280; font-style: italic; font-size: .88rem; }
+  .pri { display: inline-block; padding: .15rem .4rem; border-radius: 9999px; font-size: .78rem; font-weight: 600; }
+  .pri-alta { background:#fee2e2; color:#991b1b; }
+  .pri-media { background:#fef9c3; color:#854d0e; }
+  .pri-baja { background:#dcfce7; color:#166534; }
   .summary { margin-top: 1.5rem; padding: .8rem 1rem; background: #f0fdf4; border-left: 3px solid #16a34a; font-size: .9rem; }
 </style>
 </head>
@@ -123,11 +150,12 @@ Cuando el usuario pida "informe HTML", "listado HTML", "exportar correcciones" o
 <h1>Informe de correcciones ortograficas</h1>
 <p class="meta">Archivo: <strong>[nombre]</strong> | Idioma: <strong>[idioma]</strong> | Fecha: <strong>[fecha]</strong></p>
 <table>
-<thead><tr><th>#</th><th>Original</th><th>Correccion</th><th>Tipo</th><th>Contexto</th></tr></thead>
+<thead><tr><th>#</th><th>Prioridad</th><th>Original</th><th>Correccion</th><th>Tipo</th><th>Contexto</th></tr></thead>
 <tbody>
   <!-- una fila por corrección:
   <tr>
     <td>1</td>
+    <td><span class="pri pri-alta">Alta</span></td>
     <td><span class="original">palabra</span></td>
     <td><span class="correcto">corrección</span></td>
     <td><span class="tipo es">Tilde ES</span></td>

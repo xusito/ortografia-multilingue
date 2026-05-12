@@ -65,11 +65,26 @@ Dansk bruger stort begyndelsesbogstav i sætningens begyndelse og i egennavne, m
 
 ---
 
-## AI-vokabular der skal undgås (kunstig stil)
+## AI-vokabular der skal undgås — med erstatningsord
 
-Disse ord optræder uforholdsmæssigt ofte i AI-genererede tekster. Markér dem og foreslå naturlige alternativer:
-
-`afgørende` (overbrugt) · `grundlæggende` · `banebrydende` · `levende` (vibrant) · `rig` (figurativt) · `problemfri` · `robust` · `landskab` (abstrakt: "det digitale landskab") · `vidnesbyrd om` · `understrege` · `fremhæve` · `forme` · `i hjertet af` · `navigere` (abstrakt) · `fremme` · `det er vigtigt at bemærke` · `det bør understreges` · `i nutidens verden` · `dykke ned i` · `inden for rammerne af`
+| AI-ord | Naturlige alternativer |
+|---|---|
+| `afgørende` (overbrugt) | vigtig, central, betydningsfuld |
+| `grundlæggende` | grundlæggende, nødvendig, central |
+| `banebrydende` | ny, nytænkende, original |
+| `levende` (vibrant) | aktiv, livlig, dynamisk |
+| `rig` (figurativt) | varieret, bred, indholdsrig |
+| `problemfri` | gnidningsfri, uafbrudt, smidig |
+| `robust` | stabil, pålidelig, velbygget |
+| `landskab` (abstrakt) | branche, miljø, sektor |
+| `vidnesbyrd om` | viser, beviser, er et tegn på |
+| `understrege` | betone, påpege, præcisere |
+| `fremhæve` | nævne, vise, præsentere |
+| `forme` | bygge, definere, påvirke |
+| `i hjertet af` | i centrum af, midt i |
+| `det er vigtigt at bemærke` | bemærk at, vigtigt: |
+| `i nutidens verden` | i dag, nu, aktuelt |
+| `dykke ned i` | udforske, undersøge, sætte sig ind i |
 
 ---
 
@@ -79,3 +94,15 @@ Disse ord optræder uforholdsmæssigt ofte i AI-genererede tekster. Markér dem 
 - Forveksle `før`/`for`, `når`/`nar`, `høre`/`hore`
 - Kopiere engelsk brug af store bogstaver for ugedage og måneder
 - Udelade accent: `laese` i stedet for `læse`, `goere` i stedet for `gøre`
+
+---
+
+## Tegnsætning
+
+| Regel | Rigtigt | Forkert |
+|---|---|---|
+| Anførselstegn | `»tekst«` eller `"tekst"` | `'tekst'` |
+| Intet mellemrum før `:` `;` | `eksempel: tekst` | `eksempel : tekst` |
+| Tankestreg med mellemrum | `tekst – tekst` | `tekst-tekst` (som tankestreg) |
+| Decimalkomma | `3,14` | `3.14` |
+| Tusinder | `1.000` | `1,000` |

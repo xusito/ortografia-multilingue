@@ -56,11 +56,25 @@ Questi monosillabi cambiano significato con/senza accento:
 
 ---
 
-## Vocabolario IA da evitare (stile artificiale)
+## Vocabolario IA da evitare — con sostituzioni
 
-Queste parole ed espressioni compaiono eccessivamente nei testi generati da IA. Segnalarle e proporre alternative naturali:
-
-`cruciale` · `fondamentale` · `vibrante` · `ricco` (figurativo) · `inestimabile` · `mettere in luce` · `sottolineare` · `evidenziare` · `testimonianza di` · `paesaggio` (astratto: "il paesaggio digitale") · `nel cuore di` · `plasmare` · `stimolare` · `promuovere` · `navigare` (astratto) · `si inserisce in` · `è importante notare` · `vale la pena sottolineare` · `immergersi in` · `senza dubbio`
+| Parola IA | Alternative naturali |
+|---|---|
+| `cruciale` | importante, decisivo, determinante |
+| `fondamentale` | di base, necessario, centrale |
+| `vibrante` | vivace, attivo, dinamico |
+| `ricco` (figurativo) | vario, ampio, articolato |
+| `inestimabile` | prezioso, molto utile, di grande valore |
+| `mettere in luce` | mostrare, rivelare, evidenziare |
+| `sottolineare` | ricordare, precisare, ribadire |
+| `testimonianza di` | mostra, riflette, dimostra |
+| `paesaggio` (astratto) | settore, contesto, panorama attuale |
+| `nel cuore di` | al centro di, dentro |
+| `plasmare` | costruire, definire, formare |
+| `è importante notare` | va detto che, da notare che |
+| `vale la pena sottolineare` | vale la pena ricordare, va precisato |
+| `immergersi in` | esplorare, scoprire, affrontare |
+| `senza dubbio` | certamente, di fatto, in effetti |
 
 ---
 
@@ -94,3 +108,16 @@ L'italiano usa le doppie consonanti con frequenza. Errori comuni di IA:
 | `afinare` | `affinare` |
 | `oferta` | `offerta` |
 | `efeto` | `effetto` |
+
+---
+
+## Punteggiatura
+
+| Regola | Corretto | Errato |
+|---|---|---|
+| Virgolette | `«testo»` o `"testo"` | `'testo'` |
+| Senza spazio prima di `:` `;` | `esempio: testo` | `esempio : testo` |
+| Senza `¿` o `¡` | `Come funziona?` | `¿Come funziona?` |
+| Decimale | `3,14` | `3.14` |
+| Migliaia | `1.000` | `1,000` |
+| Apostrofo dritto | `l'uomo` | `l'uomo` (curvo) |

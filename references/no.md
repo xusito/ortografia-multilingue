@@ -80,11 +80,26 @@ Norsk bruker stor bokstav i setningens begynnelse og i egennavn, men IKKE for uk
 
 ---
 
-## AI-vokabular å unngå (kunstig stil)
+## AI-vokabular å unngå — med erstatningsord
 
-Disse ordene forekommer uforholdsmessig ofte i AI-genererte tekster. Merk dem og foreslå naturlige alternativer:
-
-`avgjørende` (overbrukt) · `grunnleggende` · `banebrytende` · `livlig` (vibrant) · `rik` (figurativt) · `sømløs` · `robust` · `landskap` (abstrakt: "det digitale landskapet") · `vitnesbyrd om` · `understreke` · `fremheve` · `forme` · `i hjertet av` · `navigere` (abstrakt) · `fremme` · `det er viktig å merke seg` · `det bør understrekes` · `i dagens verden` · `dykke ned i` · `innenfor rammen av`
+| AI-ord | Naturlige alternativer |
+|---|---|
+| `avgjørende` (overbrukt) | viktig, sentral, betydningsfull |
+| `grunnleggende` | grunnleggende, nødvendig, sentral |
+| `banebrytende` | ny, nyskapende, original |
+| `livlig` (vibrant) | aktiv, levende, dynamisk |
+| `rik` (figurativt) | variert, bred, innholdsrik |
+| `sømløs` | smidig, uavbrutt, friksjonsfri |
+| `robust` | stabil, pålitelig, velbygget |
+| `landskap` (abstrakt) | bransje, miljø, sektor |
+| `vitnesbyrd om` | viser, beviser, er et tegn på |
+| `understreke` | betone, påpeke, presisere |
+| `fremheve` | nevne, vise, presentere |
+| `forme` | bygge, definere, påvirke |
+| `i hjertet av` | i sentrum av, midt i |
+| `det er viktig å merke seg` | merk at, viktig: |
+| `i dagens verden` | i dag, nå, for tiden |
+| `dykke ned i` | utforske, undersøke, sette seg inn i |
 
 ---
 
@@ -95,3 +110,15 @@ Disse ordene forekommer uforholdsmessig ofte i AI-genererte tekster. Merk dem og
 - Kopiere engelsk bruk av store bokstaver for ukedager og måneder
 - Utelate aksent: `gar` i stedet for `går`, `star` i stedet for `står`
 - Forkorte `ikke` til `ikke` ✓ (riktig) men bruke `ikkje` i Bokmål-tekst
+
+---
+
+## Tegnsetting
+
+| Regel | Riktig | Feil |
+|---|---|---|
+| Anførselstegn | `«tekst»` (Bokmål) eller `"tekst"` | `'tekst'` |
+| Intet mellomrom før `:` `;` | `eksempel: tekst` | `eksempel : tekst` |
+| Tankestrek med mellomrom | `tekst – tekst` | `tekst-tekst` (som tankestrek) |
+| Desimalkomma | `3,14` | `3.14` |
+| Tusener | `1 000` (mellomrom) | `1,000` |

@@ -92,4 +92,39 @@ Usar `'` (recte), mai `'` ni `'` (corbs):
 - Ometre punt volat: `col.legi`, `collegi` → `col·legi`
 - Ometre ce trencada: `placa` → `plaça`
 - Usar apòstrof corb en lloc de recte
-- Vocabulari IA prohibit: `vibrant`, `crucial`, `pivotal`, `testament`, `delve`, `destacant`, `serveix com`, `s'erigeix`, `encarna`, `en el cor de`, `subratlla`, `ressalta`, `embarcar-se`, `endinsar-se`, `enclavat`, `fomentar`, `intricat`, `tapís`, `entrellaçar`
+## Vocabulari IA a evitar — amb substitucions
+
+| Paraula IA | Alternatives naturals |
+|---|---|
+| `vibrant` | actiu, dinàmic, ple de vida |
+| `crucial` | important, decisiu, determinant |
+| `pivotal` | clau, decisiu, de pes |
+| `testament` | mostra de, prova de, reflex de |
+| `delve` | explorar, aprofundir en, examinar |
+| `destacant` | esmentant, indicant, assenyalant |
+| `serveix com` | és, funciona com, actua de |
+| `s'erigeix` | és, es presenta com, esdevé |
+| `encarna` | representa, és exemple de |
+| `en el cor de` | al centre de, dins de |
+| `subratlla` | recorda, insisteix en, precisa |
+| `ressalta` | menciona, indica, assenyala |
+| `embarcar-se` | començar, iniciar, endegar |
+| `endinsar-se` | explorar, conèixer, aprofundir |
+| `enclavat` | situat, ubicat, emplaçat |
+| `fomentar` | impulsar, afavorir, estimular |
+| `intricat` | complex, detallat, elaborat |
+| `tapís` | conjunt, barreja, combinació |
+| `entrellaçar` | combinar, unir, connectar |
+
+---
+
+## Puntuació
+
+| Regla | Correcte | Incorrecte |
+|---|---|---|
+| Sense obertura interrogativa | `Com funciona?` | `¿Com funciona?` |
+| Sense obertura exclamativa | `Perfecte!` | `¡Perfecte!` |
+| Cometes | `«text»` o `"text"` | `'text'` |
+| Sense espai abans de `:` `;` | `exemple: text` | `exemple : text` |
+| Apòstrof recte | `l'empresa` | `l'empresa` (corb) |
+| Decimal | `3,14` | `3.14` |

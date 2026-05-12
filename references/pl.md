@@ -87,11 +87,26 @@ Samogłoski nosowe — brak ich jest najczęstszym błędem AI.
 
 ---
 
-## Słownictwo AI do unikania (sztuczny styl)
+## Słownictwo AI do unikania — z zamiennikami
 
-Te słowa pojawiają się nieproporcjonalnie często w tekstach generowanych przez AI. Oznaczać je i proponować naturalne alternatywy:
-
-`kluczowy` (nadużywane) · `fundamentalny` · `przełomowy` · `tętniący życiem` (vibrant) · `bogaty` (figuratywnie) · `bezproblemowy` · `solidny` · `krajobraz` (abstrakt: "cyfrowy krajobraz") · `świadectwo` · `podkreślać` · `uwydatniać` · `kształtować` · `w sercu` · `nawigować` (abstrakt) · `warto zauważyć` · `należy podkreślić` · `we współczesnym świecie` · `zagłębić się w` · `w ramach`
+| Słowo AI | Naturalne alternatywy |
+|---|---|
+| `kluczowy` (nadużywane) | ważny, istotny, decydujący |
+| `fundamentalny` | podstawowy, niezbędny, centralny |
+| `przełomowy` | nowy, nowatorski, pionierski |
+| `tętniący życiem` | aktywny, żywy, pełen ruchu |
+| `bogaty` (figuratywnie) | różnorodny, obszerny, rozbudowany |
+| `bezproblemowy` | płynny, sprawny, bez zakłóceń |
+| `solidny` | stabilny, niezawodny, trwały |
+| `krajobraz` (abstrakt) | sektor, środowisko, dziedzina |
+| `świadectwo` | dowód, oznaka, przejaw |
+| `podkreślać` | zaznaczać, przypominać, zwracać uwagę |
+| `kształtować` | tworzyć, definiować, wpływać na |
+| `w sercu` | w centrum, wewnątrz |
+| `warto zauważyć` | warto wiedzieć, należy wspomnieć |
+| `należy podkreślić` | warto zaznaczyć, pamiętajmy |
+| `we współczesnym świecie` | dziś, obecnie, aktualnie |
+| `zagłębić się w` | zbadać, poznać, przyjrzeć się |
 
 ---
 
@@ -102,3 +117,16 @@ Te słowa pojawiają się nieproporcjonalnie często w tekstach generowanych prz
 - Użycie `z` zamiast `ż` lub `ź`
 - Użycie `l` zamiast `ł`
 - Użycie `rz` zamiast `ż` (lub odwrotnie) — sprawdzić w słowniku
+
+---
+
+## Interpunkcja
+
+| Zasada | Poprawnie | Błędnie |
+|---|---|---|
+| Cudzysłów | `„tekst"` | `"tekst"` lub `'tekst'` |
+| Bez spacji przed `:` `;` | `przykład: tekst` | `przykład : tekst` |
+| Myślnik z spacjami | `tekst – tekst` | `tekst-tekst` (jako myślnik) |
+| Dziesiętne | `3,14` | `3.14` |
+| Tysiące | `1 000` (spacja) | `1,000` |
+| Apostrof rzadki | unikać apostrofu w polskim | `Maria's` (angielski wzorzec) |

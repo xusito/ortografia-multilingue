@@ -94,11 +94,27 @@ Adjektive und Verben bleiben klein, außer am Satzanfang oder als Substantivieru
 
 ---
 
-## KI-Vokabular vermeiden (künstlicher Stil)
+## KI-Vokabular vermeiden — mit Ersatzvorschlägen
 
-Diese Wörter kommen in KI-generierten Texten unverhältnismäßig häufig vor. Markieren und natürliche Alternativen vorschlagen:
-
-`entscheidend` (surutilisé) · `grundlegend` · `wegweisend` · `lebendig` / `lebhaft` (vibrant) · `Landschaft` (abstrakt: "die digitale Landschaft") · `Zeugnis von` · `unterstreichen` · `hervorheben` · `prägen` · `im Herzen von` · `navigieren` (abstrakt) · `fördern` · `nahtlos` · `robust` · `es ist wichtig zu beachten` · `es sei darauf hingewiesen` · `in der heutigen Zeit` · `sich einfügen in` · `tauchen ein in`
+| KI-Wort | Natürliche Alternativen |
+|---|---|
+| `entscheidend` (überstrapaziert) | wichtig, maßgeblich, ausschlaggebend |
+| `grundlegend` | grundsätzlich, wesentlich, zentral |
+| `wegweisend` | neu, richtungsweisend, bahnbrechend |
+| `lebendig` / `lebhaft` (vibrant) | aktiv, belebt, rege |
+| `Landschaft` (abstrakt) | Bereich, Umfeld, Branche, Sektor |
+| `Zeugnis von` | zeigt, belegt, beweist |
+| `unterstreichen` | betonen, verdeutlichen, klarstellen |
+| `hervorheben` | erwähnen, hinweisen auf, nennen |
+| `prägen` | formen, bestimmen, beeinflussen |
+| `im Herzen von` | im Mittelpunkt von, mitten in |
+| `nahtlos` | reibungslos, unterbrechungsfrei, glatt |
+| `robust` | stabil, solide, zuverlässig |
+| `fördern` | unterstützen, stärken, ausbauen |
+| `es ist wichtig zu beachten` | zu beachten ist, wichtig: |
+| `es sei darauf hingewiesen` | hinzuzufügen ist, zu erwähnen: |
+| `in der heutigen Zeit` | heute, derzeit, aktuell |
+| `tauchen ein in` | erkunden, sich befassen mit |
 
 ---
 
@@ -110,3 +126,16 @@ Diese Wörter kommen in KI-generierten Texten unverhältnismäßig häufig vor. 
 - `das`/`dass` verwechseln
 - `seit`/`seid` verwechseln
 - Großschreibung am Satzanfang vergessen
+
+---
+
+## Interpunktion
+
+| Regel | Richtig | Falsch |
+|---|---|---|
+| Anführungszeichen | `„Text"` | `"Text"` oder `'Text'` |
+| Kein Leerzeichen vor `:` `;` `!` `?` | `Beispiel: Text` | `Beispiel : Text` |
+| Dezimalzeichen | `3,14` | `3.14` |
+| Tausendertrennzeichen | `1.000` | `1,000` |
+| Gedankenstrich mit Leerzeichen | `Text – Text` | `Text-Text` (als Gedankenstrich) |
+| Kein Apostroph im Genitiv | `Marias Buch` | `Maria's Buch` |

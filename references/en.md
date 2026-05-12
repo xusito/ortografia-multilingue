@@ -108,11 +108,31 @@ English borrowings that retain their accent:
 
 ---
 
-## AI vocabulary to avoid (artificial style)
+## AI vocabulary to avoid — with replacements
 
-These words appear disproportionately in AI-generated text. Flag them and suggest natural alternatives:
-
-`crucial` · `pivotal` · `vibrant` · `landscape` (abstract) · `tapestry` · `testament` · `key` (adjective) · `groundbreaking` · `nestled` · `breathtaking` · `fostering` · `underscoring` · `highlighting` · `showcasing` · `delve` · `enhance` · `garner` · `seamless` · `robust` · `leverage` (verb) · `cutting-edge` · `game-changer` · `it's worth noting` · `it is important to note` · `in the realm of` · `in today's world` · `ever-evolving`
+| AI word | Natural alternatives |
+|---|---|
+| `crucial` | important, key, critical, central |
+| `pivotal` | decisive, turning-point, major |
+| `vibrant` | lively, active, busy, thriving |
+| `landscape` (abstract) | sector, field, environment, scene |
+| `tapestry` | mix, blend, combination |
+| `testament` | proof, evidence, sign |
+| `groundbreaking` | new, first-of-its-kind, original |
+| `nestled` | located, sitting, set |
+| `seamless` | smooth, uninterrupted, easy |
+| `robust` | solid, reliable, strong, well-built |
+| `leverage` (verb) | use, apply, draw on, tap into |
+| `delve` | look into, explore, examine |
+| `enhance` | improve, strengthen, add to |
+| `foster` | build, grow, encourage, develop |
+| `showcase` | show, display, highlight |
+| `cutting-edge` | new, latest, state-of-the-art |
+| `game-changer` | major shift, big change |
+| `it's worth noting` | note that, bear in mind, also |
+| `it is important to note` | note that, keep in mind |
+| `in the realm of` | in, within, across |
+| `ever-evolving` | changing, developing, shifting |
 
 ---
 
@@ -124,3 +144,18 @@ These words appear disproportionately in AI-generated text. Flag them and sugges
 - `affect`/`effect` confusion
 - `separate` misspelled as `seperate`
 - `definitely` misspelled as `definately`
+
+---
+
+## Punctuation
+
+| Rule | Correct | Incorrect |
+|---|---|---|
+| US: punctuation inside quotes | `He said "yes."` | `He said "yes".` |
+| UK: punctuation outside quotes | `He said "yes".` | `He said "yes."` |
+| Apostrophe straight | `it's` (straight) | `it's` (curly) |
+| No space before `:` `;` | `example: text` | `example : text` |
+| Decimal | `3.14` | `3,14` |
+| Thousands | `1,000` | `1.000` |
+| Em dash (no spaces) | `text—text` | `text — text` |
+| Hyphen vs em dash | `well-known` (hyphen) vs `text—text` (em dash) | mixing both |

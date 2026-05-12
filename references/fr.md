@@ -112,11 +112,25 @@ Utiliser `'` (droit), jamais `'` ni `'` (courbes):
 
 ---
 
-## Vocabulaire IA à éviter (style artificiel)
+## Vocabulaire IA à éviter — avec substitutions
 
-Ces mots et expressions apparaissent de façon excessive dans les textes générés par IA. Les signaler et proposer des alternatives naturelles :
-
-`crucial` · `fondamental` · `incontournable` · `essentiel` (surutilisé) · `vibrant` · `riche` (figuratif) · `mettre en lumière` · `souligner` · `témoigne de` · `témoignage de` · `paysage` (abstrait : "le paysage numérique") · `au cœur de` · `façonner` · `stimuler` · `mettre en avant` · `naviguer` (abstrait) · `s'inscrit dans` · `dans le cadre de` · `il convient de noter` · `il est important de souligner` · `plonger dans`
+| Mot IA | Alternatives naturelles |
+|---|---|
+| `crucial` | important, décisif, déterminant |
+| `fondamental` | de base, nécessaire, central |
+| `incontournable` | indispensable, à ne pas manquer |
+| `essentiel` (surutilisé) | nécessaire, clé, principal |
+| `vibrant` | animé, vivant, dynamique |
+| `riche` (figuratif) | varié, dense, fourni |
+| `mettre en lumière` | montrer, révéler, exposer |
+| `souligner` | rappeler, insister sur, préciser |
+| `témoigne de` | montre, reflète, prouve |
+| `paysage` (abstrait) | secteur, environnement, contexte |
+| `au cœur de` | au centre de, dans |
+| `façonner` | construire, définir, former |
+| `il convient de noter` | notons que, à savoir, il faut dire |
+| `il est important de souligner` | rappelons que, précisons que |
+| `plonger dans` | explorer, découvrir, aborder |
 
 ---
 
@@ -128,3 +142,16 @@ Ces mots et expressions apparaissent de façon excessive dans les textes génér
 - Confondre `à`/`a`, `où`/`ou`, `là`/`la`, `sûr`/`sur`, `dû`/`du`
 - Omettre le tréma (`naive` → `naïve`)
 - Oublier les ligatures œ/æ
+
+---
+
+## Ponctuation
+
+| Règle | Correct | Incorrect |
+|---|---|---|
+| Guillemets avec espace insécable | `« texte »` | `"texte"` ou `«texte»` |
+| Espace avant `:` `!` `?` `;` | `Quoi ? Non !` | `Quoi? Non!` |
+| Pas d'espace avant `.` `,` | `fin.` | `fin .` |
+| Décimale | `3,14` | `3.14` |
+| Milliers | `1 000` (espace) | `1,000` |
+| Apostrophe droite | `l'homme` | `l'homme` (courbe) |

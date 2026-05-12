@@ -68,11 +68,26 @@ Svenska använder stor bokstav i början av mening och för egennamn, men INTE f
 
 ---
 
-## AI-vokabulär att undvika (artificiell stil)
+## AI-vokabulär att undvika — med ersättningsord
 
-Dessa ord förekommer oproportionerligt ofta i AI-genererade texter. Markera dem och föreslå naturliga alternativ:
-
-`avgörande` (överanvänd) · `grundläggande` · `banbrytande` · `livfull` (vibrant) · `rik` (figurativt) · `sömlös` · `robust` · `landskap` (abstrakt: "det digitala landskapet") · `vittnesbörd om` · `understryka` · `lyfta fram` · `forma` · `i hjärtat av` · `navigera` (abstrakt) · `främja` · `det är viktigt att notera` · `det bör understrykas` · `i dagens värld` · `fördjupa sig i` · `inom ramen för`
+| AI-ord | Naturliga alternativ |
+|---|---|
+| `avgörande` (överanvänd) | viktig, central, betydelsefull |
+| `grundläggande` | grundläggande, nödvändig, central |
+| `banbrytande` | ny, nyskapande, originell |
+| `livfull` (vibrant) | aktiv, levande, rörlig |
+| `rik` (figurativt) | varierad, bred, innehållsrik |
+| `sömlös` | smidig, oavbruten, friktionsfri |
+| `robust` | stabil, pålitlig, välbyggd |
+| `landskap` (abstrakt) | bransch, miljö, sektor |
+| `vittnesbörd om` | visar, bevisar, är ett tecken på |
+| `understryka` | betona, påpeka, klargöra |
+| `lyfta fram` | nämna, visa, presentera |
+| `forma` | bygga, definiera, påverka |
+| `i hjärtat av` | i centrum av, mitt i |
+| `det är viktigt att notera` | notera att, viktigt: |
+| `i dagens värld` | idag, nu, för närvarande |
+| `fördjupa sig i` | utforska, undersöka, bekanta sig med |
 
 ---
 
@@ -82,3 +97,16 @@ Dessa ord förekommer oproportionerligt ofta i AI-genererade texter. Markera dem
 - Kopiera engelskt bruk av stora bokstäver för veckodagar och månader
 - Förväxla `där`/`dar`, `när`/`nar`, `för`/`for`
 - Utelämna umlaut: `koppa` istället för `köpa`, `gora` istället för `göra`
+
+---
+
+## Skiljetecken
+
+| Regel | Rätt | Fel |
+|---|---|---|
+| Citattecken | `"text"` eller `»text«` | `'text'` |
+| Inget mellanslag före `:` `;` | `exempel: text` | `exempel : text` |
+| Tankstreck med mellanslag | `text – text` | `text-text` (som tankstreck) |
+| Decimaltecken | `3,14` | `3.14` |
+| Tusental | `1 000` (mellanslag) | `1,000` |
+| Apostrof sällsynt | undvik apostrof i svenska | `Maria's` (engelskt mönster) |

@@ -100,11 +100,26 @@ Em caso de dúvida, consultar o dicionário antes de corrigir. O Acordo Ortográ
 
 ---
 
-## Vocabulário IA a evitar (estilo artificial)
+## Vocabulário IA a evitar — com substituições
 
-Estas palavras aparecem excessivamente em textos gerados por IA. Sinalizá-las e propor alternativas naturais:
-
-`crucial` · `fundamental` · `vibrante` · `rico` (figurativo) · `inestimável` · `destacar` (surutilisé) · `sublinhar` · `salientar` · `testemunho de` · `paisagem` (abstrato: "a paisagem digital") · `no coração de` · `moldar` · `impulsionar` · `promover` · `navegar` (abstrato) · `sem dúvida` · `é importante notar` · `vale a pena destacar` · `mergulhar em` · `no âmbito de`
+| Palavra IA | Alternativas naturais |
+|---|---|
+| `crucial` | importante, decisivo, determinante |
+| `fundamental` | básico, necessário, central |
+| `vibrante` | ativo, dinâmico, animado |
+| `rico` (figurativo) | variado, amplo, diversificado |
+| `inestimável` | muito útil, valioso, de grande valor |
+| `destacar` (sobreutilizado) | mencionar, referir, indicar |
+| `sublinhar` | lembrar, insistir em, precisar |
+| `testemunho de` | mostra, reflete, comprova |
+| `paisagem` (abstrato) | setor, contexto, ambiente atual |
+| `no coração de` | no centro de, dentro de |
+| `moldar` | construir, definir, formar |
+| `impulsionar` | aumentar, acelerar, ajudar a crescer |
+| `é importante notar` | note-se que, convém saber |
+| `vale a pena destacar` | vale mencionar, importa referir |
+| `mergulhar em` | explorar, descobrir, abordar |
+| `sem dúvida` | certamente, de facto, com efeito |
 
 ---
 
@@ -115,3 +130,17 @@ Estas palavras aparecem excessivamente em textos gerados por IA. Sinalizá-las e
 - Omitir acentos em oxítonas (`voce` → `você`, `ate` → `até`)
 - Confundir variantes PT/BR sem consistência no mesmo texto
 - Escrever `ç` antes de `e` ou `i` (errado) — usar apenas antes de `a`, `o`, `u`
+
+---
+
+## Pontuação
+
+| Regra | Correto | Errado |
+|---|---|---|
+| Aspas | `«texto»` ou `"texto"` | `'texto'` |
+| Sem espaço antes de `:` `;` | `exemplo: texto` | `exemplo : texto` |
+| Sem `¿` ou `¡` | `Como funciona?` | `¿Como funciona?` |
+| Decimal | `3,14` | `3.14` |
+| Milhares (PT) | `1.000` | `1,000` |
+| Milhares (BR) | `1.000` | `1,000` |
+| Apóstrofo reto | `d'água` | `d'água` (curvo) |
